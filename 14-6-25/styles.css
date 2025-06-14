@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 16px; /* added font-size to body */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+section {
+    background-color: #f0f0f0;
+    padding: 2em;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px; /* added max-width to section */
+}
+
+#product-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.product {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.product img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.product-info h3 {
+    margin-top: 0;
+    font-size: 18px; /* added font-size to product-info h3 */
+}
+
+.product-info p {
+    margin-bottom: 20px;
+    font-size: 16px; /* added font-size to product-info p */
+}
+
+#cart-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.cart-item img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.cart-item-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.cart-item-info h4 {
+    margin-top: 0;
+    font-size: 18px; /* added font-size to cart-item-info h4 */
+}
+
+.cart-item-info p {
+    margin-bottom: 20px;
+    font-size: 16px; /* added font-size to cart-item-info p */
+}
+
+#cart-total {
+    font-weight: bold;
+    font-size: 24px; /* added font-size to cart-total */
+    margin-bottom: 20px;
+}
+
+#checkout-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    max-width: 400px; /* added max-width to checkout-form */
+}
+
+#checkout-form input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px; /* added font-size to checkout-form input */
+}
+
+#checkout-form button {
+    width: 100%;
+    height: 40px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 16px; /* added font-size to checkout-form button */
+    cursor: pointer;
+}
+
+#checkout-form button:hover {
+    background-color: #555;
+}
